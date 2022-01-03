@@ -1,82 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Festive&family=Mountains+of+Christmas&family=Open+Sans&family=Shizuru&family=Tangerine&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Mountains+of+Christmas&family=Open+Sans&family=Shizuru&family=Tangerine&display=swap");
 
 :root {
-  --wine-red: #C7375F;
-  --dark-green: #344D2F;
-  --light-green: #77A047;
-  --snow: #F0F4F7;
+  --wine-red: #c7375f;
+  --dark-green: #344d2f;
+  --light-green: #77a047;
+  --snow: #f0f4f7;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;    
-    justify-content: center;
-    align-items: center;
-    font-family: 'Open Sans', sans-serif;
-    background-color: var(--light-green);
-    background: url("letter_to_santa.jpg") no-repeat center/cover;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--light-green);
+  background: url("images/letter_to_santa.jpg") no-repeat center/cover;
+  height: 100vh;
 }
-
 
 .sign,
 .text-input {
-    background-color: var(--snow);     
-    color: var(--dark-green);  
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;    
+  background-color: var(--snow);
+  color: var(--dark-green);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .sign {
-    border: 5px solid var(--wine-red);
-    padding: 1em;
-    min-width: 450px;
-    font-size: 2.8rem;
-    margin-top: 4em;
- }
+  border: 5px solid var(--wine-red);
+  padding: 1em;
+  min-width: 450px;
+  font-size: 2.8rem;
+  margin-top: 4em;
+}
 
 .container {
-    display: flex;
-    flex-direction: column;    
-    justify-content: center;
-    align-items: center;
-    background: var(--light-green);
-    padding: 1.5em 2em 2em;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--light-green);
+  padding: 1.5em 2em 2em;
+  border-radius: 10px;
 }
 
 label {
-    font-size: 1.9rem;
-    color: var(--dark-green);
-    text-align: center;
+  font-size: 1.9rem;
+  color: var(--dark-green);
+  text-align: center;
 }
 
 .text-input {
-    border: var(--light-green);
-    padding: 0.5em 1em;
-    margin-top: 1em;
-    font-size: 1.5rem;
+  border: var(--light-green);
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  font-size: 1.5rem;
 }
 
 .controls {
-    margin-top: 1.5em;
+  margin-top: 1.5em;
 }
 
 .controls label {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .font-style {
-    margin-top: 0.5em;
+  margin-top: 0.5em;
 }
 
 #font-style {
-    padding: 0.2em 0.1em;
-    margin-left: 0.25em;
+  padding: 0.2em 0.1em;
+  margin-left: 0.25em;
 }
-
